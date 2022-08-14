@@ -8,3 +8,6 @@
 
 # ～ BiliBili_哔哩哔哩_标籤页处理@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_json.js
+
+[MITM]
+hostname = app.bilibili.com
