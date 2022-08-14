@@ -1,0 +1,9 @@
+#！name= Bilibili换区&去广告(iOS15) 。陈 ؋♥️+
+#！desc=开屏页广告，推荐页广告，动态（推荐话题和列表广告），视频播放页面（up主推荐广告，相关推荐广告）
+
+[脚本]
+# > BiliBili_我的页面处理
+^https://app\.bilibili\.com/x/v2/account/mine\?access_key url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_mine.js
+
+
+[MITM]hostname = app.bilibili.com，
