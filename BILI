@@ -6,5 +6,9 @@
 ^https://app\.bilibili\.com/x/v2/account/mine\?access_key url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_mine.js
 
 
+
+
+
+
 [MITM]
-hostname = app.bilibili.com，
+hostname = app.bilibili.com
