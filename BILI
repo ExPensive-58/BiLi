@@ -4,7 +4,6 @@
 [脚本]
 # > BiliBili_我的页面处理
 ^https://app\.bilibili\.com/x/v2/account/mine\?access_key url script-response-body https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_mine.js
-
 标签页处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js,script-update-interval=0
 
 
